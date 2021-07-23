@@ -1,1 +1,1 @@
-web: java -jar target/heroku-sample-1.0.0-SNAPSHOT-runner.jar
+web: java $JAVA_OPTS -jar target/heroku-sample-1.0.0-SNAPSHOT-runner.jar
